@@ -1,29 +1,28 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "abdulmajeed-jamaan/filament-translatable-json-field",
+    "description": "Simplifying json based translations management with full customizability",
     "keywords": [
-        ":vendor_name",
+        "Abdulmajeed-Jamaan",
         "laravel",
-        ":package_slug"
+        "filament",
+        "filament-translatable-json-field"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/abdulmajeed-jamaan/filament-translatable-json-field",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/abdulmajeed-jamaan/filament-translatable-json-field/issues",
+        "source": "https://github.com/abdulmajeed-jamaan/filament-translatable-json-field"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdulmajeed-Jamaan",
+            "email": "abdulmajeed.jamaan@outlook.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
         "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -36,18 +35,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AbdulmajeedJamaan\\FilamentTranslatableJsonField\\": "src/",
+            "AbdulmajeedJamaan\\FilamentTranslatableJsonField\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "AbdulmajeedJamaan\\FilamentTranslatableJsonField\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AbdulmajeedJamaan\\FilamentTranslatableJsonField\\FilamentTranslatableJsonFieldServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentTranslatableJsonField": "AbdulmajeedJamaan\\FilamentTranslatableJsonField\\Facades\\FilamentTranslatableJsonField"
             }
         }
     },

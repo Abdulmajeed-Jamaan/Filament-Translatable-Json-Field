@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AbdulmajeedJamaan\FilamentTranslatableJsonField\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentTranslatableJsonFieldCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-translatable-json-field';
 
     public $description = 'My command';
 
