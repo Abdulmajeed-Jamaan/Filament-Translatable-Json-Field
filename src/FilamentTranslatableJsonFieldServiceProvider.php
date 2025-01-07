@@ -2,6 +2,8 @@
 
 namespace AbdulmajeedJamaan\FilamentTranslatableJsonField;
 
+use AbdulmajeedJamaan\FilamentTranslatableJsonField\Commands\FilamentTranslatableJsonFieldCommand;
+use AbdulmajeedJamaan\FilamentTranslatableJsonField\Testing\TestsFilamentTranslatableJsonField;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AbdulmajeedJamaan\FilamentTranslatableJsonField\Commands\FilamentTranslatableJsonFieldCommand;
-use AbdulmajeedJamaan\FilamentTranslatableJsonField\Testing\TestsFilamentTranslatableJsonField;
 
 class FilamentTranslatableJsonFieldServiceProvider extends PackageServiceProvider
 {
